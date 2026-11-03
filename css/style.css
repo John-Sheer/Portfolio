@@ -161,18 +161,18 @@ a { color: inherit; }
     max-width: 700px;
     aspect-ratio: 1 / 1;
     border-radius: 8px;
-    background-image: url('../img/John.png');
+    background-image: url('../img/John.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    filter: grayscale(100%) brightness(1.05) contrast(1.05);
+    filter: grayscale(100%) brightness(1.03);
     transition: filter 0.4s ease, transform 0.4s ease;
     transform-origin: top center;
 }
 
 .photo-frame.hover-active {
     filter: grayscale(0%) brightness(1) contrast(1);
-    transform: scale(1.7);
+    transform: scale(1.15);
     z-index: 10;
 }
 

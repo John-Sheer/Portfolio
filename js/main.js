@@ -348,7 +348,7 @@
         const frame = document.querySelector('.photo-frame');
         if (!frame) return;
         const img = new Image();
-        img.src = 'img/John.png?' + Date.now();
+        img.src = 'img/John.webp?' + Date.now();
         const hitmap = [];
         let iw, ih, scaleFactor;
 
